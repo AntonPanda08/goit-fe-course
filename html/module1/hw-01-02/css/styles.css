@@ -1,0 +1,104 @@
+body{
+    width: 1200px;
+    height: 2080px;
+}
+
+nav{
+    margin-top: 60px;
+    margin-bottom: 99px;
+}
+
+.main-menu{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: "PlayfairDisplay", serif;
+}
+.main-menu a{
+    text-decoration: none;
+}
+ul.main-menu{
+    list-style-type: none;
+    margin-left: 307px;
+    padding: 0px;
+}
+
+.ml121px{
+    margin-left: 121px;
+}
+.ml103px{
+    margin-left: 103px;
+}
+.ml95px{
+    margin-left: 95px;
+}
+.menu-button{
+    color: #626262;
+}
+.menu-button:hover{
+    color: #03a9f4;
+}
+li{
+    display: inline;
+}
+.text{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    line-height: 17px;
+    margin-top: 30px;
+}
+.heading2{
+    font-family: "PlayfairDisplay", serif;
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+    line-height: 36px;
+}
+.paragraph{
+    font-family: "PlayfairDisplay", serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+}
+
+button{
+    font-family: "PlayfairDisplay", serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+}
+section{
+    width: 420px;
+    height: 490px;
+    display: inline-block;
+    
+}
+.section{
+    margin-left: 150px;
+    margin-right: 160px;
+    margin-bottom: 126px;
+}
+
+div{
+    margin-top: 21px;
+    margin-bottom: 27px;
+}
+button{
+    background-color: #fff;
+    color: #626262;
+    border: 1px solid #626262;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    width: 165px;
+    height: 64px;
+    margin-left: 507px;
+    margin-bottom: 70px;
+    margin-top: 49px;
+}
+section.bottom-section{
+    margin-bottom: 0px;
+}
+  
