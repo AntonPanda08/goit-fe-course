@@ -1,45 +1,63 @@
-body{
-    width: 1200px;
-    height: 2080px;
-}
-
 nav{
-    margin-top: 60px;
-    margin-bottom: 99px;
+    padding-top: 60px;
+    padding-bottom: 99px;
 }
 
-.main-menu{
+
+ul.main-menu{
     display: inline-block;
     text-transform: uppercase;
     font-family: "Playfair Display", serif;
+    margin-left: 307px;
+    padding: 0px;
+    list-style-type: none;
 }
 .main-menu a{
     text-decoration: none;
 }
-ul.main-menu{
-    list-style-type: none;
-    margin-left: 307px;
-    padding: 0px;
-}
 
-.ml121px{
-    margin-left: 121px;
-}
-.ml103px{
-    margin-left: 103px;
-}
-.ml95px{
-    margin-left: 95px;
-}
-.menu-button{
-    color: #626262;
-}
+
+
 .menu-button:hover{
     color: #03a9f4;
 }
+
 li{
-    display: inline;
+    display: inline-block;
+    margin-right: 121px;
 }
+li a{
+    color: #626262;
+}
+
+
+ /* .main-menu{
+     width: 800px;
+     margin: auto;
+     padding-top: 60px;
+     padding-bottom: 99px;
+     background-color: grey;
+ }
+
+ .menu-item{
+     display: inline-block;
+     margin-right: 121px;
+ }
+
+ .menu-button{
+    display: inline-block;
+    padding-left: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    color: #626262;
+ }
+
+ .menu-button:hover{
+    color: #03a9f4;
+} */
+
 .text{
     font-family: "Ubuntu", sans-serif;
     font-size: 14px;
@@ -76,7 +94,7 @@ section{
     
 }
 .section{
-    margin-left: 150px;
+    padding-left: 150px;
     margin-right: 160px;
     margin-bottom: 126px;
 }
