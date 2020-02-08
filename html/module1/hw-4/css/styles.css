@@ -98,7 +98,7 @@ h3::after {
     width: 255px;
     height: 282px;
 }
-section.item {
+section {
     width: 255px;
     height: 40px;
     background-color: rgb(50, 50, 50);
@@ -164,7 +164,7 @@ section.item {
 p {
     margin: 0;
 }
-.products:hover .item {
+.products:hover section {
     background-color: rgb(26, 188, 156);
 }
 .price::after {
