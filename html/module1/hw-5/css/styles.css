@@ -65,6 +65,9 @@ padding-bottom: 38px;
 .menu-item a:hover {
     color: rgb(26, 188, 156);
 }
+.menu-item a:focus {
+    color: rgb(26, 188, 156);
+}
 li.menu-item:nth-child(6) {
     margin-right: 0px;
 }
@@ -88,14 +91,14 @@ li.menu-item:nth-child(6) {
     position: absolute;
 }
 .slider-left {
-    left: 245px;
+    left: 15%;
     top: 50%;
     transform: translateY(-50%);
     background-image: url(../icons/left.png); 
 }
 .slider-right {
     top: 50%;
-    right: 245px;
+    right: 15%;
     transform: translateY(-50%);
     background-image: url(../icons/right.png);
 }
@@ -206,6 +209,13 @@ li.products:nth-child(4) {
     position: absolute;
     top: 0px;
     left: 0px;
+    opacity: 0;
+}
+.overlay:hover {
+    opacity: 1;
+}
+.overlay:focus {
+    opacity: 1;
 }
 .icon-list {
    padding-top: 80px;
@@ -231,6 +241,9 @@ button.icon-box-last {
     background-position: center;
 }
 .icon-box:hover {
+    background-color: rgb(26, 188, 156);
+}
+.icon-box:focus {
     background-color: rgb(26, 188, 156);
 }
 .button-cart {
@@ -270,6 +283,11 @@ button.icon-box-last {
     background-image: url(../icons/clock.png);
 }
 .products:hover .product-box {
+    cursor: pointer;
+    background-color: rgb(26, 188, 156);
+}
+.products:focus .product-box {
+    cursor: pointer;
     background-color: rgb(26, 188, 156);
 }
 .footer {
