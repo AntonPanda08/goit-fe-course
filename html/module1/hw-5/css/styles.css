@@ -88,14 +88,14 @@ li.menu-item:nth-child(6) {
     position: absolute;
 }
 .slider-left {
-    left: 357px;
+    left: 245px;
     top: 50%;
     transform: translateY(-50%);
     background-image: url(../icons/left.png); 
 }
 .slider-right {
     top: 50%;
-    right: 339px;
+    right: 245px;
     transform: translateY(-50%);
     background-image: url(../icons/right.png);
 }
