@@ -252,7 +252,7 @@ input::placeholder {
     left: -10px;
     opacity: 0;
     cursor: pointer;
-    transition: background-color 200ms linear;
+    transition: linear-gradient 200ms linear;
 }
 .overlay:hover{
     opacity: 1;
