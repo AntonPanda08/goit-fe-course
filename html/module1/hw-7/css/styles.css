@@ -49,9 +49,9 @@ header {
     text-transform: capitalize;
     color: rgb(254, 209, 54);
 }
-/* section h2, section p {
+section h2, section p {
     text-align: center;
-} */
+}
 .section_heading {
     color: rgb(34, 34, 34);
     font-family: Montserrat;
