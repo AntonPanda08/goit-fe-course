@@ -118,6 +118,9 @@ section h2, section p {
 .contact_us {
     background-color: rgb(34, 34, 34);
     width: 100%;
+    background-image: url(../img/Map_Image.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .contact_us h2 {
     padding-top: 110px;
@@ -129,12 +132,6 @@ section h2, section p {
 }
 form {
     padding-bottom: 115px;
-}
-.map {
-    position: absolute;
-    opacity: 0.3;
-    top: 120px;
-    right: 0px;
 }
 .contact {
     padding-left: 0px;
@@ -152,12 +149,15 @@ input {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(187, 187, 187);
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;
-    text-transform: uppercase;
     text-indent: 20px;
+}
+input::placeholder {
+    text-transform: uppercase;
+    color: rgb(187, 187, 187);
 }
 .contact_list {
     margin-bottom: 29px;
@@ -169,11 +169,10 @@ textarea {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(187, 187, 187);
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;
-    text-transform: uppercase;
     text-indent: 20px;
     padding-top: 20px;
     width: 454px;
@@ -181,6 +180,10 @@ textarea {
     padding-left: 0px;
     padding-right: 0px;
     resize: none;
+}
+textarea::placeholder {
+    text-transform: uppercase;
+    color: #bbbbbb;
 }
 .submit {
     width: 240px;
@@ -193,23 +196,22 @@ textarea {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+    cursor: pointer;
 }
-input[name="user_name"]:valid {
+input[name="user_name"]:focus:valid {
     outline: 1px solid rgb(0, 255, 0);
 }
-input[name="user_name"]:invalid {
+input[name="user_name"]:focus:invalid {
     outline: 1px solid rgb(255, 0, 0);
 }
-input[name="user_email"]:valid {
+input[name="user_email"]:focus:valid {
     outline: 1px solid rgb(0, 255, 0);
 }
-input[name="user_email"]:invalid {
+input[name="user_email"]:focus:invalid {
     outline: 1px solid rgb(255, 0, 0);
 }
 input:focus {
     outline: 0;
-    font-family: Montserrat;
-    font-weight: 700;
 }
 textarea:focus {
     outline: 0;
