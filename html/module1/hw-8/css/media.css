@@ -1,0 +1,158 @@
+@media screen and (max-width: 767px) {
+    .top_section {
+        min-height: 540px;
+        background-image: url(../img/background_mobile.png);
+    }
+    .bottom_section {
+        padding: 0 10px;
+    }
+    .registration {
+        padding-top: 20px;
+        justify-content: center;
+        margin-bottom: 115px;
+    }
+    .logo {
+        justify-content: center;
+        margin-bottom: 38px;
+    }
+    h1, .top_section p {
+        text-align: center;
+        margin-bottom: 19px;
+    }
+    h2 {
+        padding-top: 69px;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+    .partner {
+        max-width: 217px;
+        margin: 0 auto;
+    }
+    .partner h3 {
+        margin: 0px;
+        margin-bottom: 16px;
+    }
+    .partner p {
+        margin: 0px;
+    }
+    .before {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    li.partner:nth-child(-n+4) {
+        margin-bottom: 29px;
+    }
+    .button_size {
+        width: 280px;
+        height: 40px;
+    }
+    .bottom_section button {
+        margin-bottom: 57px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .top_section {
+        margin: 0 auto;
+        min-height: 700px;
+        background-image: url(../img/background_tablet.png);
+    }
+    .logo {
+        position: absolute;
+        top: 46px;
+        left: 50px;
+    }
+    .registration {
+        justify-content: flex-end;
+        padding-top: 38px;
+        padding-right: 50px;
+        margin-bottom: 152px;
+    }
+    h1 {
+        font-size: 52px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .top_section .button_size {
+        width: 226px;
+        height: 40px;
+        margin-bottom: 234px;
+    }
+    h2 {
+        padding-top: 72px;
+        margin: 0px;
+        margin-bottom: 32px;
+        }
+    .holiday_partners {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 482px;
+        margin: 0 auto;
+        align-content: center;
+        margin-bottom: 53px;
+        justify-content: space-between;
+    }
+    .top_section p {
+        text-align: center;
+        margin-bottom: 34px;
+    }
+    .bottom_section {
+        padding: 0px 10px;
+        width: 748px;
+        margin: 0 auto;
+    }
+    .bottom_section .button_size {
+        width: 193px;
+        height: 40px;
+    }
+    .partner{
+        width: 236px;
+        margin: 0 auto;
+    }
+    .partner:nth-child(4) {
+        min-height: 242px;
+    }
+    .bottom_section .button_size {
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width: 940px) {
+    .top_section {
+        background-image: url(../img/background_desktop.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .container {
+        width: 940px;
+        margin: 0 auto;
+    }
+    .logo{
+        left: 0px;  
+    }
+    .registration {
+        padding-right: 0px;
+    }
+    .holiday_partners {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+    .partner:nth-child(1) {
+        order: 1;
+    }
+    .partner:nth-child(2) {
+        order: 3;
+    }
+    .partner:nth-child(3) {
+        order: 2;
+    }
+    .partner:nth-child(4) {
+        order: 4;
+    }
+    .bottom_section .button_size {
+        margin-bottom: 70px;
+    }
+}
