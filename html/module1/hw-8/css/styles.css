@@ -33,15 +33,13 @@ span {
 .registration {
     font-family: Montserrat, sans-serif;
 }
-.registration button a {
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-    font-weight: 700;
-}
 .registration button {
     width: 86px;
     height: 32px;
     background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
 }
 .log_in {
     border: none;
@@ -72,15 +70,15 @@ h1 {
     margin-bottom: 0px;
 }
 .top_section .button_size {
+    border: none;
+    background-color: rgb(255, 78, 80);
+    color: rgb(255, 255, 255);
+}
+.button_size {
     display: block;
     margin: 0 auto;
     border-radius: 20px;
     font-family: Montserrat, sans-serif;
-    border: none;
-    background-color: rgb(255, 78, 80);
-}
-.top_section button a {
-    color: rgb(255, 255, 255);
 }
 h2 {
     color: rgb(51, 51, 51);
@@ -134,17 +132,10 @@ h2 {
     background-color: rgb(78, 115, 219);
 }
 .bottom_section button {
-    display: block;
-    margin: 0 auto;
-    border-radius: 20px;
-    font-family: Montserrat;
     border: 2px solid rgb(255, 78, 80);
-    background-color: rgb(255, 255, 255);
-}
-.bottom_section button a {
     color: rgb(255, 78, 80);
+    background-color: rgb(255, 255, 255);
 }
 button {
     cursor: pointer;
 }
-  
