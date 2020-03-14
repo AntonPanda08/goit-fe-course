@@ -1,0 +1,277 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+ul {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.relative {
+    position: relative;
+}
+span {
+    display: block;
+    margin: 0 auto;
+}
+.top_section {
+    background-color: rgb(26, 25, 21);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.registration {
+    font-family: Montserrat, sans-serif;
+}
+.registration button {
+    width: 86px;
+    height: 32px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+}
+.log_in {
+    border: none;
+}
+.sign_up {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: transparent;
+}
+.logo {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.top_section p {
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 700;
+}
+.top_section .button_size {
+    border: none;
+    background-color: rgb(255, 78, 80);
+    color: rgb(255, 255, 255);
+}
+.button_size {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    font-family: Montserrat, sans-serif;
+}
+h2 {
+    color: rgb(51, 51, 51);
+    font-family: Montserrat;
+    font-size: 22px;
+    text-align: center;
+}
+.holiday_partners h3 {
+    color: #333333;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.holiday_partners p {
+    color: rgb(102, 102, 102);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.before {
+    width: 121px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+}
+.before::before {
+    content: '';
+    display: block;
+    width: 29px;
+    height: 29px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tele::before {
+    background-image: url(../icons/tele.png);
+    background-color: rgb(255, 78, 80);
+}
+.tube::before {
+    background-image: url(../icons/tube.png);
+    background-color: rgb(255, 165, 7);
+}
+.coffee::before {
+    background-image: url(../icons/coffee.png);
+    background-color: rgb(28, 215, 173);
+}
+.plane::before {
+    background-image: url(../icons/plane.png);
+    background-color: rgb(78, 115, 219);
+}
+.bottom_section button {
+    border: 2px solid rgb(255, 78, 80);
+    color: rgb(255, 78, 80);
+    background-color: rgb(255, 255, 255);
+}
+button {
+    cursor: pointer;
+}
+.partner h3 {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.partner p {
+    font-size: 14px;
+    font-family: "Roboto Light";
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+}
+.bottom_section h2 {
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+    .top_section {
+        min-height: 540px;
+        background-image: url(../img/background_mobile.png);
+    }
+    .head {
+        padding-top: 20px;
+    }
+    .registration {
+        margin-bottom: 115px;
+    }
+    .logo {
+        margin-bottom: 33px;
+    }
+    h1 {
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+    .top_section p {
+        margin-bottom: 17px;
+    }
+    .mobile {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    li.partner:nth-child(-n+3) {
+        margin-bottom: 21px;
+    }
+    li.partner:nth-child(4) {
+        margin-bottom: 23px;
+    }
+    .bottom_section h2 {
+        padding-top: 70px;
+        margin-bottom: 14px;
+        font-size: 22px;
+    }
+    .bottom_section .button_size {
+        margin-bottom: 57px;
+    }  
+}
+@media screen and (min-width: 768px) {
+    .top_section {
+        margin: 0 auto;
+        min-height: 700px;
+        background-image: url(../img/background_tablet.png);
+    }
+    .tablet {
+        max-width: 660px;
+        margin: 0 auto;
+    }
+    .head {
+        padding-top: 39px;
+        margin-bottom: 154px;
+    }
+    h1 {
+        margin-bottom: 39px;
+    }
+    .top_section p {
+        margin-bottom: 35px;
+    }
+    .button_size {
+        width: 226px;
+        height: 40px;
+    }
+    .bottom_section h2 {
+        padding-top: 73px;
+        margin-bottom: 31px;
+    }
+    .partner {
+        width: 236px;
+    }
+    .partner p {
+        margin-bottom: 0;
+    }
+    li.partner:nth-child(-n+2) {
+        margin-right: 20px;
+    }
+    li.partner:nth-child(odd) {
+        margin-bottom: 51px;
+    }
+    .holiday_partners {
+        margin-bottom: 25px;
+    }
+    .bottom_section .button_size {
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .top_section {
+        background-image: url(../img/background_desktop.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .desktop {
+        max-width: 940px;
+        margin: 0 auto;
+    }
+    .partner {
+        margin-bottom: 0px;
+    }
+    li.partner:nth-child(4) {
+        margin-right: 0px;
+    }
+    li.partner:nth-child(-n+3) {
+        margin-right: 20px;
+    }
+    li.partner:nth-child(odd) {
+        margin-bottom: 0px;
+    }
+    .bottom_section .button_size {
+        margin-bottom: 75px;
+    }
+}
