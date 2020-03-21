@@ -330,7 +330,7 @@ h1 span, h3 span {
     font-size: 14px;
     font-weight: 400;
 }
-.footer__text--p::before::before {
+.footer__text--p::before {
     content:'\00A9';
 }
 .capitalize {
