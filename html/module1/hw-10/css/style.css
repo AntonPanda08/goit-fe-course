@@ -1,0 +1,400 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+.relative {
+    position: relative;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+li{
+    list-style-type: none;
+}
+.flex {
+    display: flex;
+}
+.banner {
+    min-height: 1000px;
+    background-image: linear-gradient( to top, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url(../img/banner-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header {
+    min-height: 50px;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 176px;
+}
+.main-menu {
+    margin: 0px;
+    padding: 0px;
+    width: 490px;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.menu-button a {
+    color: rgb(255, 255, 255);
+    transition: color 200ms linear;
+    cursor: pointer;
+    transition: border-bottom 200ms linear;
+}
+.menu-button svg{
+    display: block;
+    width: 18px;
+    height: 15px;
+    fill: rgb(255, 255, 255);
+    transition: fill 200ms linear;     
+}
+.menu-button svg:hover, .menu-button svg:focus {
+    fill: rgb(252, 227, 138);
+}
+h1 span, h3 span {
+    display: block;
+    text-align: center;
+}
+.menu-button a:hover, .menu-button a:focus {
+    color: rgb(252, 227, 138);
+    border-bottom: 3px solid  rgb(252, 227, 138);
+    padding-bottom: 12px;
+}
+.logo {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.banner button {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    width: 152px;
+    height: 32px;
+    cursor: pointer;
+}
+.flex-header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    margin-bottom: 124px;
+}
+h1 .kaushan {
+    font-size: 72px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;    
+}
+h1 .montserrat {
+    font-size: 150px;
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+}
+.services {
+    padding-top: 128px;
+}
+h3 {
+    line-height: 36px;
+    margin: 0px;
+}
+h3:first-letter {
+    text-transform: capitalize;
+}
+h3::after {
+    display: block;
+    background-color: rgb(243, 129, 129);    width: 60px;
+    height: 3px;
+    content: '';
+    margin: 0 auto;
+    margin-top: 42px;
+}
+.services h3::after {
+    margin-bottom: 66px;
+}
+.kaushan {
+    color: rgb(51, 51, 51);
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+}
+.montserrat {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.service-list {
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-between;
+}
+.service-item {
+    flex-basis: 383px;
+}
+.icon {
+    padding-left: 82px;
+}
+.icon::before {
+    content: '';
+    position: absolute;
+    width: 32px;
+    background-repeat: no-repeat;
+    left: 20px;
+}
+.alarm::before {
+    background-image: url(../icon/ALARM.png);
+    height: 31px;
+}
+.line-graph::before {
+    background-image: url(../icon/LINE_GRAPH.png);
+    height: 32px;
+}
+.computer::before {
+    background-image: url(../icon/COMPUTER.png);
+    height: 28px;
+}
+.book::before {
+    background-image: url(../icon/BOOK.png);
+    height: 32px;
+}
+.home::before {
+    background-image: url(../icon/HOME.png);
+    height: 31px;
+}
+.image::before {
+    background-image: url(../icon/IMAGE.png);
+    height: 32px;
+}
+.service-item:nth-child(-n+3) {
+    margin-bottom: 99px;
+}
+.service-item:nth-child(n+4) {
+    margin-bottom: 92px;
+}
+h4 {
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.service-item p {
+    color: rgb(153, 153, 153);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+}
+.roboto {
+    color: rgb(153, 153, 153);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 941px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 92px;
+}
+.team h3::after {
+    margin-bottom: 46px;
+}
+.team-member img {
+    margin-bottom: 31px;
+}
+.member-name h4 {
+    margin-bottom: 15px;
+}
+.team-list {
+    justify-content: space-between;
+}
+.team-member {
+    flex-basis: 380px;
+}
+.member-name {
+    text-align: center;
+    cursor: pointer;
+}
+.team-member p {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(153, 153, 153);
+    font-family: Roboto;
+    text-transform: capitalize;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+
+footer {
+    justify-content: space-between;
+    min-height: 63px;
+    align-items: center;
+    border-top: 1px solid rgb(229, 229, 229);;
+}
+.footer-text p {
+    margin: 0px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-text p::before {
+    content:'\00A9';
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.footer-text a {
+    color: rgb(243, 129, 129);
+    text-transform: capitalize;
+}
+.subscribe {
+    width: 150px;
+    height: 44px;
+    background-color: #95e1d3;
+    border: none;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+input {
+    width: 230px;
+    height: 40px;
+    border: 1px solid rgb(231, 231, 231);
+    margin-left: 0px;
+}
+input::placeholder {
+    color: rgb(204, 204, 204);
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+    text-indent: 15px;
+}
+.overlay {
+    width: 380px;
+    height: 470px;
+    background: linear-gradient(to top, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%);
+    box-shadow: 10px 10px rgb(149, 225, 211);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    opacity: 0;
+    cursor: pointer;
+    transition: linear-gradient 200ms linear;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.overlay:hover .team-photo {
+    transform: translate(-10px, -10px);
+}
+.team-member:hover .overlay {
+    opacity: 1;
+    top: -10px;
+    left: -10px;
+    transition: all 200ms linear;
+    box-shadow: 10px 10px rgb(149, 225, 211);
+}
+.team-member:hover img {
+    transform: translate(-10px, -10px);
+    transition: all 200ms linear;
+}
+.social {
+    margin: 0 auto;
+    align-items: center;
+    padding: 0px;
+}
+.social-item {
+    border: none;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(252, 227, 138);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: background-color 200ms linear;
+}
+.social-item svg {
+    display: block;
+    width: 100%;
+    height: 26px;
+    fill: rgb(243, 129, 129);
+    transition: fill 200ms linear;
+}
+.social-item svg:hover, .social-item svg:focus {
+    fill: rgb(255, 255, 255);
+}
+.social-item:hover, .social-item:focus {
+    background-color: rgb(243, 129, 129);
+}
+.social li {
+    margin-right: 1px;
+}
+.social li:last-child {
+    margin-right: 0px;
+}
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .banner {
+        background-image: linear-gradient( to top, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url(../img/banner@2x-min.png);
+    }
+    .icon::before {
+        background-size: contain;
+    }
+    .alarm::before {
+        background-image: url(../icon/ALARM@2x.png);
+        height: 31px;
+    }
+    .line-graph::before {
+        background-image: url(../icon/LINE_GRAPH@2x.png);
+        height: 32px;
+    }
+    .computer::before {
+        background-image: url(../icon/COMPUTER@2x.png);
+        height: 28px;
+    }
+    .book::before {
+        background-image: url(../icon/BOOK@2x.png);
+        height: 32px;
+    }
+    .home::before {
+        background-image: url(../icon/HOME@2x.png);
+        height: 31px;
+    }
+    .image::before {
+        background-image: url(../icon/IMAGE@2x.png);
+        height: 32px;
+    }
+}
+  
+ 
+  
