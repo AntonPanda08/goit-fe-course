@@ -17,6 +17,7 @@ html{
 .menu-container {
     width: 901px;
     margin: 0 auto;
+    padding-top: 75px;
 }
 
 .main-menu {
@@ -27,7 +28,6 @@ html{
     width: 901px;
     text-align: center;
     margin-bottom: 100px;
-    margin-top: 75px;
     padding: 0px;
 }
 .menu-item {
