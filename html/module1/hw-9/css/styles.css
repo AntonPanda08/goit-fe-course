@@ -154,6 +154,7 @@ button {
     font-family: "Roboto Light";
     color: rgb(102, 102, 102);
     line-height: 1.2;
+    font-weight: 300;
 }
 .bottom_section h2 {
     font-family: "Montserrat";
