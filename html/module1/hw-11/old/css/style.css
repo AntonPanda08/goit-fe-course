@@ -1,0 +1,55 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    min-height: 63px;
+    align-items: center;
+    border-top: 1px solid rgb(229, 229, 229);;
+}
+.footer__text--p {
+    margin: 0px;
+    color: #333333;
+    font-family: $main-font-stack;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer__text--p::before {
+    content:'\00A9';
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.footer__text--a {
+    color: rgb(243, 129, 129);
+    text-transform: capitalize;
+}
+.footer__form-button {
+    width: 150px;
+    height: 44px;
+    background-color: #95e1d3;
+    color: #ffffff;
+    font-family: $main-font-stack;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer__form-input {
+    width: 230px;
+    height: 40px;
+    border: 1px solid rgb(231, 231, 231);
+    margin-left: 0px;
+}
+.footer__form-input::placeholder {
+    color: rgb(204, 204, 204);
+    font-family: $secondary-font-stack;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+    text-indent: 15px;
+}
+
+
+}
+  
+ 
+  

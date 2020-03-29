@@ -1,0 +1,33 @@
+.banner {
+  min-height: 1000px;
+  background-image: linear-gradient( to top, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url(../images/img/banner-min.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient( to top, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url(../images/img/banner@2x-min.png);
+  }
+}
+.kaushan {
+  color: $heading-color;
+  font-family: $heading-caligraphy-font;
+  font-size: 24px;
+  font-weight: 400;
+}
+.montserrat {
+  font-family: $main-font-stack;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+
+h1 span, h3 span {
+  display: block;
+  text-align: center;
+}

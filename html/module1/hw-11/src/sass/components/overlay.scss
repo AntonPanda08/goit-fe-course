@@ -1,0 +1,54 @@
+.overlay {
+  position: relative;
+  display: flex;
+  width: 380px;
+  height: 470px;
+  background: linear-gradient(to top, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%);
+  box-shadow: 10px 10px rgb(149, 225, 211);
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  opacity: 0;
+  cursor: pointer;
+  transition: linear-gradient 200ms linear;
+  &:hover{
+    opacity: 1;
+  }
+  &:hover .team-photo {
+    transform: translate(-10px, -10px);
+  }
+}
+
+.overlay__list {
+  @include center-flex('ver');
+  margin: 0 auto;
+  padding: 0px;
+  &-item--margin {
+    margin-right: 1px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+.overlay__item {
+  @extend %button;
+  width: 55px;
+  height: 55px;
+  background-color: $hover-menu-icon;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-color 200ms linear;
+  &:focus, &:hover {
+    background-color: rgb(243, 129, 129);
+  }
+}
+.overlay__icon {
+  display: block;
+  width: 100%;
+  height: 26px;
+  fill: rgb(243, 129, 129);
+  transition: fill 200ms linear;
+  &:focus, &:hover {
+    fill: $main-white-color;
+  }
+}

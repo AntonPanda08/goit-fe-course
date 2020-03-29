@@ -1,0 +1,16 @@
+%flex-space {
+  display: flex;
+  justify-content: space-between;
+}
+%section-item-title {
+  text-transform: uppercase;
+  color: $heading-color;
+  font-family: $main-font-stack;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+%button {
+  cursor: pointer;
+  border: none;
+}

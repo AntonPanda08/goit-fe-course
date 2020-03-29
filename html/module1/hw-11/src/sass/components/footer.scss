@@ -1,0 +1,50 @@
+.footer {
+  @extend %flex-space;
+  min-height: 63px;
+  align-items: center;
+  border-top: 1px solid $secondary-white-color;
+  &__text--p {
+    margin: 0px;
+    color: $heading-color;
+    font-family: $main-font-stack;
+    font-size: 14px;
+    font-weight: 400;
+    &::before {
+      content:'\00A9';
+    }
+  }
+  &__text--a {
+    color: $link-color;
+    text-transform: capitalize;
+  }
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+.footer__form-button {
+  @extend %button;
+  width: 150px;
+  height: 44px;
+  background-color: #95e1d3;
+  color: #ffffff;
+  font-family: $main-font-stack;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer__form-input {
+  width: 230px;
+  height: 40px;
+  border: 1px solid $input-border-color;
+  margin-left: 0px;
+  &::placeholder {
+    color: $placeholder-color;
+    font-family: $secondary-font-stack;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+    text-indent: 15px;
+  }
+}

@@ -1,0 +1,31 @@
+.main-menu {
+  @extend %flex-space;
+  margin: 0px;
+  padding: 0px;
+  width: 490px;
+  font-family: $main-font-stack;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  &__link {
+    color: $main-white-color;
+    transition: color 200ms linear;
+    cursor: pointer;
+    transition: border-bottom 200ms linear;
+    &:focus, &:hover {
+        color: $hover-menu-icon;
+        border-bottom: 3px solid $hover-menu-icon;
+        padding-bottom: 12px;
+      }
+  }
+  &__icon{
+    display: block;
+    width: 18px;
+    height: 15px;
+    fill: $main-white-color;
+    transition: fill 200ms linear;     
+    &:focus, &:hover {
+        fill: $hover-menu-icon;
+      }  
+}
+}
