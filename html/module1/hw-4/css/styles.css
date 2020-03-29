@@ -93,41 +93,36 @@ h3::after {
 }
 .box {
     background-color: rgb(233, 240, 253);
-    width: 255px;
-    height: 282px;
 }
 section {
-    height: 40px;
     background-color: rgb(50, 50, 50);
     padding: 0;
 }
+.product1 {
+    padding-bottom: 18px;
+}
 .product2 {
-    padding-left: 36px;
-    padding-top: 22px;
+    padding: 22px 43px 14px 36px;
 }
 
 .product3 {
-    padding-left: 13px;
-    padding-top: 71px;
+    padding: 71px 13px 53px 13px;
 }
 .product4 {
-    padding-left: 7px;
-    padding-top: 48px;
+    padding: 48px 8px 30px 7px;
 }
 .product5 {
-    padding-left: 32px;
-    padding-top: 13px;
+    padding: 13px 25px 56px 32px;
 }
 .product6 {
     padding-top: 51px;
+    padding-bottom: 51px;
 }
 .product7 {
-    padding-left: 32px;
-    padding-top: 24px;
+    padding: 24px 27px 18px 32px;
 }
 .product8 {
-    padding-left: 13px;
-    padding-top: 97px;
+    padding: 97px 8px 87px 13px;
 }
 .product-name {
     float: left;
@@ -138,7 +133,6 @@ section {
     float: right;
     background-color: rgba(255, 255, 255, 0.439); 
     width: 54px;
-    height: 40px;
     padding: 10px;
     text-align: center;
 }
