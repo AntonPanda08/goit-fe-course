@@ -9,10 +9,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://antonpanda08.github.io/goit-fe-course/html/module1/hw-11/",
+  "homepage": "https://antonpanda08.github.io/goit-fe-course/",
   "repository": {
     "type": "git",
-    "url": "git+https://antonpanda08.github.io/goit-fe-course/html/module1/hw-11/"
+    "url": "git+https://antonpanda08.github.io/goit-fe-course/"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "MIT",
