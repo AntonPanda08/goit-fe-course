@@ -14,11 +14,9 @@ while (input !== null) {
     // eslint-disable-next-line no-continue
     continue;
   }
-
   total += input;
+  numbers.push(input);
 }
-for (let i = 0; i === null; i += 1) {
-  numbers.push(input[i]);
-}
+
 console.log(numbers);
 console.log(`Общая сумма ${total}`);
