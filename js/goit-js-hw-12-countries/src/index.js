@@ -1,5 +1,4 @@
 import './styles.css';
-import '../node_modules/toastr/build/toastr.css';
 import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import fetchCountries from './js/fetchCountries';

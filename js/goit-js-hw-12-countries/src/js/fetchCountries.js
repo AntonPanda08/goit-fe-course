@@ -2,6 +2,7 @@ import refs from './refs';
 import countryDesc from '../hbs/country-description.hbs';
 import countryList from '../hbs/country-list.hbs';
 import toastr from '../../node_modules/toastr/toastr';
+import '../../node_modules/toastr/build/toastr.css';
 function cuontryDescMarkup(data) {
   const markup = countryDesc(data);
   refs.countryDescription.insertAdjacentHTML('beforeend', markup);
