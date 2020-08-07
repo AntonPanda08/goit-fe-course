@@ -1,5 +1,5 @@
 import galleryMarkup from '../templates/gallery.hbs';
-import toastrError from '../js/toastrNotify';
+import toastrNotify from '../js/toastrNotify';
 import refs from './refs';
 import * as basicLightbox from 'basiclightbox';
 
@@ -12,26 +12,20 @@ export default {
       .then(res => res.json())
       .then(data => {
         if (data.total === 0) {
-          toastrError();
+          {
+            toastrNotify.toastrError();
+          }
         }
         this.page += 1;
         const markup = galleryMarkup(data);
         refs.gallery.insertAdjacentHTML('beforeend', markup);
         refs.loadMoreBtn.classList.remove('is-hidden');
-        document.querySelector('img').onclick = () => {
-          basicLightbox
-            .create(
-              `
-                <img width="1400" height="900" src="${data.hits.largeImageURL}">
-            `,
-            )
-            .show();
-        };
         window.scrollTo({
           top: document.documentElement.offsetHeight,
           behavior: 'smooth',
         });
-      });
+      })
+      .catch(error => console.error(error));
   },
   get query() {
     return this.searchQuery;

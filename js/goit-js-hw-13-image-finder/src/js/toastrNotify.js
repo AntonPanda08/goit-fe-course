@@ -1,7 +1,7 @@
 import toastr from '../../node_modules/toastr/toastr';
 import '../../node_modules/toastr/build/toastr.css';
 
-function toastrNotify() {
+function toastrSearch() {
   toastr['error']('Search something', 'OOPS');
 
   toastr.options = {
@@ -43,4 +43,4 @@ function toastrError() {
     hideMethod: 'fadeOut',
   };
 }
-export default { toastrNotify, toastrError };
+export default { toastrSearch, toastrError };

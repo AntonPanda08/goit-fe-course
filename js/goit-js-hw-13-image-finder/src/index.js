@@ -12,7 +12,7 @@ refs.form.addEventListener('submit', event => {
   refs.gallery.innerHTML = '';
   fetchImages.page = 1;
   if (fetchImages.query === '') {
-    toastrNotify();
+    toastrNotify.toastrSearch();
   } else {
     fetchImages.fetchImages();
   }
